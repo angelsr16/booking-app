@@ -49,6 +49,7 @@ const SignIn = () => {
       <label className="text-gray-700 text-sm font-bold flex-1">
         Email
         <input
+          type="email"
           className="border rounded w-full py-1 px-2 font-normal"
           {...register("email", { required: "This field is required" })}
         />
